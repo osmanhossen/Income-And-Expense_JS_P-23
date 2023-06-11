@@ -39,6 +39,4 @@ document.getElementById("save_btn").addEventListener("click", function () {
   const remainingBalance = (document.getElementById(
     "Remaining_Balance"
   ).innerText = balance - saving);
-
-  saving = "";
 });
